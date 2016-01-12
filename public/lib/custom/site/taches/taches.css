@@ -1,0 +1,62 @@
+.taches
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+	margin-top:30px;
+}
+
+.taches li .tache-modal
+{
+	border-bottom:1px dashed #AEAEAE;
+	padding:20px;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+.taches li:last-child .tache-modal
+{
+	border-bottom:none;
+}
+
+.taches li .tache-modal:hover
+{
+	background-color:#F9F9F9;
+}
+
+.taches li .tache-nom, .taches li .tache-echeance
+{
+	font-weight:bold;
+	color:#333;
+	font-size:20px;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.taches li .tache-echeance
+{
+	text-align: right;
+}
+
+.complete > * > *
+{
+	text-decoration: line-through;
+}
+
+@media only screen and (max-width:768px)
+{
+	.taches li .tache-echeance
+	{
+		margin-top: 10px;
+		color:#333;
+		font-size:16px;
+		text-align: center;
+	}
+	.taches li .tache-nom
+	{
+		text-align: center;
+	}
+}

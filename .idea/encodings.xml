@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/AboutController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/ListesController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/PasswordController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/TachesController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Requests/Liste/ListeCreateRequest.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Requests/Liste/ListeNameRequest.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Requests/Password/PasswordUpdateRequest.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Requests/Request.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Requests/Tache/TacheListRequest.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Requests/Tache/TacheNameRequest.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/routes.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/login/login.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/master.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/site/about/about.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/site/listes/listes.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/site/nav.blade.php" charset="UTF-8" />
+  </component>
+</project>

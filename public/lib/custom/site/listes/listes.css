@@ -1,0 +1,68 @@
+.listes
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+	margin-top:30px;
+}
+
+.listes li .panel
+{
+	display:block;
+	overflow: auto;
+	cursor: pointer;
+}
+
+.listes li .panel:hover
+{
+	background-color:#F9F9F9;
+}
+
+.listes li .panel .liste-id
+{
+	display:none;
+}
+
+.listes li .panel .panel-footer
+{
+	text-align: center;
+}
+
+.listes li .panel .panel-body
+{
+	text-align: justify;
+	word-break:break-all;
+	overflow:hidden;
+}
+
+@media only screen and (min-width : 480px)
+{
+	.listes li .panel .panel-body
+	{
+		height: auto;
+	}
+}
+
+@media only screen and (min-width : 768px)
+{
+	.listes li .panel .panel-body
+	{
+		height: 190px;
+	}
+}
+
+@media only screen and (min-width : 992px)
+{
+	.listes li .panel .panel-body
+	{
+		height: 210px;
+	}
+}
+
+@media only screen and (min-width : 1200px)
+{
+	.listes li .panel .panel-body
+	{
+		height: 250px;
+	}
+}
